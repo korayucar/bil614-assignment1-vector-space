@@ -1,0 +1,148 @@
+2017-11-02 08:45:20,106parse_input_file started.
+2017-11-02 08:45:22,834parse_input_file finished.(took: 2.728001 seconds)
+2017-11-02 08:45:22,834filter_out_entities_without_tr_field started.
+2017-11-02 08:45:22,853filter_out_entities_without_tr_field finished.(took: 0.018731 seconds)
+2017-11-02 08:45:22,855remove_stop_words started.
+2017-11-02 08:45:28,760remove_stop_words finished.(took: 5.904902 seconds)
+2017-11-02 08:45:28,760count_word_occurences started.
+2017-11-02 08:45:33,965count_word_occurences finished.(took: 5.205083 seconds)
+2017-11-02 08:45:33,965calculate_commonality_of_terms_by_counting_number_of_documents_it_exist started.
+2017-11-02 08:45:39,458calculate_commonality_of_terms_by_counting_number_of_documents_it_exist finished.(took: 5.492361 seconds)
+2017-11-02 08:45:39,458calculate_tf_idf started.
+2017-11-02 08:45:52,162calculate_tf_idf finished.(took: 12.704451 seconds)
+2017-11-02 08:45:52,162pre_calculate_document_vector_magnitudes started.
+2017-11-02 08:45:54,034pre_calculate_document_vector_magnitudes finished.(took: 1.871678 seconds)
+2017-11-02 08:45:54,034normalize_documents_to_unit_sphere started.
+2017-11-02 08:45:55,964normalize_documents_to_unit_sphere finished.(took: 1.929230 seconds)
+2017-11-02 08:45:55,964k_means_for_range_of_k started.
+2017-11-02 08:45:55,966select_initial_centers_by_kmeans_plus_plus started.
+2017-11-02 08:52:44,421select_initial_centers_by_kmeans_plus_plus finished.(took: 408.454673 seconds)
+2017-11-02 08:52:44,422k_means started.
+2017-11-02 08:52:44,422k means started with k value 16
+2017-11-02 08:52:44,423iteration 1 starting
+2017-11-02 08:52:44,423find_closest_centroid_for_each_document started.
+2017-11-02 08:53:52,400sum of squared errors: 95173.5019943
+2017-11-02 08:53:52,400find_closest_centroid_for_each_document finished.(took: 67.977083 seconds)
+2017-11-02 08:53:52,400compute_next_centoroids started.
+2017-11-02 08:54:26,920compute_next_centoroids finished.(took: 34.520142 seconds)
+2017-11-02 08:54:26,921iteration 2 starting
+2017-11-02 08:54:26,921find_closest_centroid_for_each_document started.
+2017-11-02 08:58:45,042sum of squared errors: 80326.4067666
+2017-11-02 08:58:45,043find_closest_centroid_for_each_document finished.(took: 258.121733 seconds)
+2017-11-02 08:58:45,043compute_next_centoroids started.
+2017-11-02 08:59:17,095compute_next_centoroids finished.(took: 32.051968 seconds)
+2017-11-02 08:59:17,155iteration 3 starting
+2017-11-02 08:59:17,277find_closest_centroid_for_each_document started.
+2017-11-02 09:03:26,183sum of squared errors: 78879.5037278
+2017-11-02 09:03:26,184find_closest_centroid_for_each_document finished.(took: 248.907366 seconds)
+2017-11-02 09:03:26,184compute_next_centoroids started.
+2017-11-02 09:03:56,643compute_next_centoroids finished.(took: 30.458619 seconds)
+2017-11-02 09:03:56,686iteration 4 starting
+2017-11-02 09:03:56,795find_closest_centroid_for_each_document started.
+2017-11-02 09:08:01,531sum of squared errors: 78505.8393333
+2017-11-02 09:08:01,532find_closest_centroid_for_each_document finished.(took: 244.737091 seconds)
+2017-11-02 09:08:01,532compute_next_centoroids started.
+2017-11-02 09:08:32,414compute_next_centoroids finished.(took: 30.881353 seconds)
+2017-11-02 09:08:32,457iteration 5 starting
+2017-11-02 09:08:32,557find_closest_centroid_for_each_document started.
+2017-11-02 09:12:40,579sum of squared errors: 78402.2817347
+2017-11-02 09:12:40,580find_closest_centroid_for_each_document finished.(took: 248.023144 seconds)
+2017-11-02 09:12:40,581compute_next_centoroids started.
+2017-11-02 09:13:20,131compute_next_centoroids finished.(took: 39.549884 seconds)
+2017-11-02 09:13:20,172iteration 6 starting
+2017-11-02 09:13:20,265find_closest_centroid_for_each_document started.
+2017-11-02 09:17:35,640sum of squared errors: 78352.5292265
+2017-11-02 09:17:35,641find_closest_centroid_for_each_document finished.(took: 255.375774 seconds)
+2017-11-02 09:17:35,641compute_next_centoroids started.
+2017-11-02 09:18:08,034compute_next_centoroids finished.(took: 32.392838 seconds)
+2017-11-02 09:18:08,076iteration 7 starting
+2017-11-02 09:18:08,170find_closest_centroid_for_each_document started.
+2017-11-02 10:32:54,165sum of squared errors: 78314.5430977
+2017-11-02 10:32:54,174find_closest_centroid_for_each_document finished.(took: 4486.003997 seconds)
+2017-11-02 10:32:54,174compute_next_centoroids started.
+2017-11-02 10:33:30,920compute_next_centoroids finished.(took: 36.741064 seconds)
+2017-11-02 10:33:30,960iteration 8 starting
+2017-11-02 10:33:31,057find_closest_centroid_for_each_document started.
+2017-11-02 10:37:39,688sum of squared errors: 78282.3423418
+2017-11-02 10:37:39,688find_closest_centroid_for_each_document finished.(took: 248.631498 seconds)
+2017-11-02 10:37:39,688compute_next_centoroids started.
+2017-11-02 10:38:09,572compute_next_centoroids finished.(took: 29.883198 seconds)
+2017-11-02 10:38:09,610iteration 9 starting
+2017-11-02 10:38:09,711find_closest_centroid_for_each_document started.
+2017-11-02 10:42:23,971sum of squared errors: 78250.5596379
+2017-11-02 10:42:23,972find_closest_centroid_for_each_document finished.(took: 254.261478 seconds)
+2017-11-02 10:42:23,973compute_next_centoroids started.
+2017-11-02 10:43:03,371compute_next_centoroids finished.(took: 39.398254 seconds)
+2017-11-02 10:43:03,421iteration 10 starting
+2017-11-02 10:43:03,684find_closest_centroid_for_each_document started.
+2017-11-02 10:47:50,915sum of squared errors: 78204.5880118
+2017-11-02 10:47:50,918find_closest_centroid_for_each_document finished.(took: 287.233181 seconds)
+2017-11-02 10:47:50,918compute_next_centoroids started.
+2017-11-02 10:48:28,126compute_next_centoroids finished.(took: 37.207094 seconds)
+2017-11-02 10:48:28,168iteration 11 starting
+2017-11-02 10:48:28,380find_closest_centroid_for_each_document started.
+2017-11-02 10:53:15,654sum of squared errors: 78155.4504028
+2017-11-02 10:53:15,656find_closest_centroid_for_each_document finished.(took: 287.276030 seconds)
+2017-11-02 10:53:15,657compute_next_centoroids started.
+2017-11-02 10:54:01,750compute_next_centoroids finished.(took: 46.091932 seconds)
+2017-11-02 10:54:01,873iteration 12 starting
+2017-11-02 10:54:02,298find_closest_centroid_for_each_document started.
+2017-11-02 10:58:49,198sum of squared errors: 78132.3343961
+2017-11-02 10:58:49,200find_closest_centroid_for_each_document finished.(took: 286.902250 seconds)
+2017-11-02 10:58:49,201compute_next_centoroids started.
+2017-11-02 10:59:39,986compute_next_centoroids finished.(took: 50.784783 seconds)
+2017-11-02 10:59:40,149iteration 13 starting
+2017-11-02 10:59:40,376find_closest_centroid_for_each_document started.
+2017-11-02 11:04:23,954sum of squared errors: 78113.4948686
+2017-11-02 11:04:23,956find_closest_centroid_for_each_document finished.(took: 283.579490 seconds)
+2017-11-02 11:04:23,956compute_next_centoroids started.
+2017-11-02 11:05:04,192compute_next_centoroids finished.(took: 40.236124 seconds)
+2017-11-02 11:05:04,343iteration 14 starting
+2017-11-02 11:05:04,482find_closest_centroid_for_each_document started.
+2017-11-02 11:09:53,120sum of squared errors: 78103.3816494
+2017-11-02 11:09:53,125find_closest_centroid_for_each_document finished.(took: 288.642915 seconds)
+2017-11-02 11:09:53,125compute_next_centoroids started.
+2017-11-02 11:10:29,524compute_next_centoroids finished.(took: 36.398241 seconds)
+2017-11-02 11:10:30,132iteration 15 starting
+2017-11-02 11:10:30,230find_closest_centroid_for_each_document started.
+2017-11-02 11:15:08,758sum of squared errors: 78097.1563887
+2017-11-02 11:15:08,766find_closest_centroid_for_each_document finished.(took: 278.535043 seconds)
+2017-11-02 11:15:08,768compute_next_centoroids started.
+2017-11-02 11:15:48,519compute_next_centoroids finished.(took: 39.748378 seconds)
+2017-11-02 11:15:49,163iteration 16 starting
+2017-11-02 11:15:49,440find_closest_centroid_for_each_document started.
+2017-11-02 11:20:43,452sum of squared errors: 78092.3813862
+2017-11-02 11:20:43,454find_closest_centroid_for_each_document finished.(took: 294.013697 seconds)
+2017-11-02 11:20:43,455compute_next_centoroids started.
+2017-11-02 11:21:24,558compute_next_centoroids finished.(took: 41.102363 seconds)
+2017-11-02 11:21:25,142iteration 17 starting
+2017-11-02 11:21:25,271find_closest_centroid_for_each_document started.
+2017-11-02 11:26:50,887sum of squared errors: 78088.0572507
+2017-11-02 11:26:50,890find_closest_centroid_for_each_document finished.(took: 325.618016 seconds)
+2017-11-02 11:26:50,890compute_next_centoroids started.
+2017-11-02 11:27:28,989compute_next_centoroids finished.(took: 38.098502 seconds)
+2017-11-02 11:27:29,627iteration 18 starting
+2017-11-02 11:27:29,745find_closest_centroid_for_each_document started.
+^@1^[OP2017-11-02 11:32:28,894sum of squared errors: 78083.3463313
+2017-11-02 11:32:28,896find_closest_centroid_for_each_document finished.(took: 299.151118 seconds)
+2017-11-02 11:32:28,897compute_next_centoroids started.
+2017-11-02 11:33:08,603compute_next_centoroids finished.(took: 39.705684 seconds)
+2017-11-02 11:33:09,157iteration 19 starting
+2017-11-02 11:33:09,267find_closest_centroid_for_each_document started.
+2017-11-02 11:38:01,896sum of squared errors: 78077.877567
+2017-11-02 11:38:01,899find_closest_centroid_for_each_document finished.(took: 292.631479 seconds)
+2017-11-02 11:38:01,900compute_next_centoroids started.
+2017-11-02 11:38:42,427compute_next_centoroids finished.(took: 40.525831 seconds)
+2017-11-02 11:38:43,202iteration 20 starting
+2017-11-02 11:38:43,405find_closest_centroid_for_each_document started.
+2017-11-02 11:43:19,521sum of squared errors: 78070.3892637
+2017-11-02 11:43:19,522find_closest_centroid_for_each_document finished.(took: 276.116043 seconds)
+2017-11-02 11:43:19,522compute_next_centoroids started.
+2017-11-02 11:43:53,684compute_next_centoroids finished.(took: 34.161781 seconds)
+2017-11-02 11:43:53,685find_closest_centroid_for_each_document_and_calculate_squared_distance started.
+2017-11-02 11:43:53,685find_closest_centroid_for_each_document started.
+2017-11-02 11:48:11,512sum of squared errors: 78057.8658592
+2017-11-02 11:48:11,513find_closest_centroid_for_each_document finished.(took: 257.828164 seconds)
+2017-11-02 11:50:18,972sum of squared errors: 78057.8658592
+2017-11-02 11:50:18,972find_closest_centroid_for_each_document_and_calculate_squared_distance finished.(took: 385.287864 seconds)
+2017-11-02 11:50:19,251k_means finished.(took: 10654.828746 seconds)
